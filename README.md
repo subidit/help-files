@@ -1,1 +1,31 @@
 # dotfiles
+
+- Dotfiles/
+    - README.md (Main project readme)
+    - Homebrew/
+        - Brewfile (Homebrew packages and apps)
+        - README.md (For explanations and guidance on Brewfile)
+    - Zsh/
+        - .zshrc (Zsh configuration)
+        - README.md (For explanations and guidance on .zshrc)
+    - Git/
+        - .gitconfig (Git configuration)
+        - .gitignore (Global gitignore)
+        - README.md (For explanations and guidance on .gitconfig and .gitignore)
+    - VSCode/
+        - settings.json (VS Code settings)
+        - keybindings.json (Custom keybindings)
+        - README.md (For explanations and guidance on VS Code settings)
+    - Docker/
+        - .docker/config.json (Docker config)
+        - README.md (For explanations and guidance on Docker config)
+    - Nginx/
+        - nginx.conf (Nginx web server config)
+        - README.md (For explanations and guidance on nginx.conf)
+    - Scripts/
+        - custom-script.sh (Custom scripts)
+        - README.md (For explanations and guidance on custom scripts)
+    - web/
+        - robots.txt
+        - .htaccess
+        - readme.md (for explanations and guidance on robots.txt and .htaccess)
