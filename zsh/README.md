@@ -73,23 +73,19 @@
 * greed - A puzzle game where you select numbers to maximize your score.
 * tty-solitaire - Play the classic Solitaire card game in your terminal.
 * hangman - A simple hangman game for word-guessing fun.
-nethack - A classic and highly detailed terminal-based dungeon-crawling adventure game.
-dopewars - A text-based drug dealing game where you aim to make a profit.
-tetris-bsd - Another version of Tetris for terminal gaming.
-fortune-mod - Provides a wide collection of witty and humorous sayings, quotes, and phrases.
-cowsay - Make an ASCII cow or other animals say anything you want.
-lolcat - Adds rainbow colors to your terminal output, making it visually entertaining.
-sl - Shows a whimsical steam locomotive when you mistype "ls."
-ponysay - Like cowsay, but with ponies and other characters delivering your messages.
-figlet - Creates large text banners in various styles, perfect for fun messages or ASCII art.
-boxes - Draws shapes and boxes around text in your terminal, adding a creative touch.
-cmatrix - Simulates the "Matrix" digital rain effect for a visually engaging experience.
-nyancat - Displays an animated Nyan Cat, complete with the catchy Nyan Nyan Nyan song.
-aafire - Generates an ASCII art fire animation.
-
-# Terminal Utilities
-
-This repository contains a collection of useful terminal utilities for various purposes. Each utility is organized into different categories for easy reference.
+* nethack - A classic and highly detailed terminal-based dungeon-crawling adventure game.
+* dopewars - A text-based drug dealing game where you aim to make a profit.
+* tetris-bsd - Another version of Tetris for terminal gaming.
+* fortune-mod - Provides a wide collection of witty and humorous sayings, quotes, and phrases.
+* cowsay - Make an ASCII cow or other animals say anything you want.
+* lolcat - Adds rainbow colors to your terminal output, making it visually entertaining.
+* sl - Shows a whimsical steam locomotive when you mistype "ls."
+* ponysay - Like cowsay, but with ponies and other characters delivering your messages.
+* figlet - Creates large text banners in various styles, perfect for fun messages or ASCII art.
+* boxes - Draws shapes and boxes around text in your terminal, adding a creative touch.
+* cmatrix - Simulates the "Matrix" digital rain effect for a visually engaging experience.
+* nyancat - Displays an animated Nyan Cat, complete with the catchy Nyan Nyan Nyan song.
+* aafire - Generates an ASCII art fire animation.
 
 ## Index
 
@@ -273,10 +269,7 @@ This repository contains a collection of useful terminal utilities for various p
 | xcowsay      | Similar to cowsay but with a graphical cow speaking your message. |
 
 
-===
-
-
-**Text Processing and Manipulation:**
+### Text Processing and Manipulation
 
 | Utility  | Description                                           |
 |----------|-------------------------------------------------------|
@@ -287,7 +280,7 @@ This repository contains a collection of useful terminal utilities for various p
 | tr       | Translate, delete, or squeeze characters in text.    |
 | jq       | JSON processor for querying and manipulating JSON.   |
 
-**Data Transfer and Networking:**
+### Data Transfer and Networking
 
 | Utility | Description                                           |
 |---------|-------------------------------------------------------|
@@ -295,7 +288,7 @@ This repository contains a collection of useful terminal utilities for various p
 | nc      | A simple utility for reading/writing network data.    |
 | wget    | Retrieve files from the web via HTTP, HTTPS, and FTP.  |
 
-**Terminal Multiplexing and Monitoring:**
+### Terminal Multiplexing and Monitoring
 
 | Utility | Description                                           |
 |---------|-------------------------------------------------------|
@@ -303,7 +296,7 @@ This repository contains a collection of useful terminal utilities for various p
 | screen  | Full-screen window manager that multiplexes a physical terminal. |
 | htop    | Interactive process viewer for monitoring system resources. |
 
-**File and Disk Management:**
+### File and Disk Management
 
 | Utility  | Description                                           |
 |----------|-------------------------------------------------------|
@@ -313,7 +306,7 @@ This repository contains a collection of useful terminal utilities for various p
 | find     | Search and locate files and directories within a file system. |
 | dupeguru | A GUI utility to find duplicate files in your system.  |
 
-**Parallel Processing and Batch Jobs:**
+### Parallel Processing and Batch Jobs
 
 | Utility  | Description                                           |
 |----------|-------------------------------------------------------|
@@ -477,5 +470,3 @@ This repository contains a collection of useful terminal utilities for various p
 48. `zle-keymap-select` - Define keymap-specific behavior.
 49. `zstyle` - Customize completion and formatting styles.
 50. `zplug` - Configure and load Zsh plugins.
-
-You can add these commands to your `zshrc` file to enhance your Zsh shell's functionality and tailor it to your preferences.
