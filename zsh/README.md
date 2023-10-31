@@ -272,3 +272,53 @@ This repository contains a collection of useful terminal utilities for various p
 | xeyes        | Pairs of eyes that follow your mouse cursor on the screen. |
 | xcowsay      | Similar to cowsay but with a graphical cow speaking your message. |
 
+
+===
+
+
+**Text Processing and Manipulation:**
+
+| Utility  | Description                                           |
+|----------|-------------------------------------------------------|
+| grep     | Search and match text using regular expressions.       |
+| sed      | Text processing tool for substitution, deletion, etc. |
+| cut      | Extract specific fields or columns from text.        |
+| sort     | Sort lines of text files or input streams.           |
+| tr       | Translate, delete, or squeeze characters in text.    |
+| jq       | JSON processor for querying and manipulating JSON.   |
+
+**Data Transfer and Networking:**
+
+| Utility | Description                                           |
+|---------|-------------------------------------------------------|
+| curl    | Transfer data with URLs, supporting various protocols. |
+| nc      | A simple utility for reading/writing network data.    |
+| wget    | Retrieve files from the web via HTTP, HTTPS, and FTP.  |
+
+**Terminal Multiplexing and Monitoring:**
+
+| Utility | Description                                           |
+|---------|-------------------------------------------------------|
+| tmux    | Terminal multiplexer for managing multiple sessions. |
+| screen  | Full-screen window manager that multiplexes a physical terminal. |
+| htop    | Interactive process viewer for monitoring system resources. |
+
+**File and Disk Management:**
+
+| Utility  | Description                                           |
+|----------|-------------------------------------------------------|
+| ncdu     | Disk usage analyzer with a text-based interface.      |
+| df       | Display disk space usage of file systems.             |
+| du       | Estimate file and directory space usage.              |
+| find     | Search and locate files and directories within a file system. |
+| dupeguru | A GUI utility to find duplicate files in your system.  |
+
+**Parallel Processing and Batch Jobs:**
+
+| Utility  | Description                                           |
+|----------|-------------------------------------------------------|
+| parallel | Execute multiple jobs or commands in parallel.        |
+| xargs    | Build and execute command lines from standard input.  |
+| jobber   | A task manager and job scheduler for batch processing. |
+
+
