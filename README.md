@@ -38,7 +38,7 @@
     └── .zshrc
 ```
 
-
+## Symlink
 The `ln` command is a Unix command for creating links between files or directories. A link is a reference to another file or directory. There are two types of links: hard links and soft links.
 
 - A hard link is an additional name for an existing file. It points to the same memory location as the original file. You can create multiple hard links for a single file, but not for directories or files on different filesystems or partitions.
