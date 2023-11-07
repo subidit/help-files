@@ -1,3 +1,16 @@
+When you create a new codespace, GitHub clones your selected dotfiles repository to the codespace environment, and looks for one of the following files to set up the environment.
+
+    install.sh
+    install
+    bootstrap.sh
+    bootstrap
+    script/bootstrap
+    setup.sh
+    setup
+    script/setup
+
+If none of these files are found, then any files or folders in your selected dotfiles repository starting with `.` are symlinked to the codespace's `~` or `$HOME` directory.
+
 # dotfiles
 
 - Dotfiles/
