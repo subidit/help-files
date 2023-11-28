@@ -1,3 +1,5 @@
+## Tips
+
 For easy debugging- In `style.css`
 ```css
 * {
