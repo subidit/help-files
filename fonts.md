@@ -1,7 +1,40 @@
 ## Contents <!-- omit from toc --> 
 
+- [Free Font Aggregators](#free-font-aggregators)
+- [Type Foundry](#type-foundry)
 - [Classification](#classification)
 - [The 100 Top Typefaces](#the-100-top-typefaces)
+
+
+## Free Font Aggregators
+
+1. [Google Fonts](https://fonts.google.com/)
+2. [Beautiful Web Type](https://beautifulwebtype.com/)
+3. [uncut.wtf](https://uncut.wtf/)
+4. [FontSpace](https://www.fontspace.com/)
+5. [DaFont](https://www.dafont.com/)
+6. [BeFonts](https://befonts.com/)
+7. [Font Squirrel](https://www.fontsquirrel.com/)
+8. [FontSpring](https://www.fontspring.com/)
+9. [Abstract Fonts](https://www.abstractfonts.com/)
+10. [1001 Free Fonts](https://www.1001freefonts.com/)
+11. [FontStruct](https://fontstruct.com/gallery)
+12. [Urban Fonts](https://www.urbanfonts.com/free-fonts.htm)
+13. [FontBundles](https://fontbundles.net/free-fonts)
+14. [fonts.com Free section](https://www.fonts.com/browse?priceMax=family:pricing:free)
+15. [Fontsly](https://fontsly.com/)
+16. [creativetacos](https://creativetacos.com/category/free-fonts/)
+17. [Open Foundry](https://open-foundry.com/fonts)
+
+
+## Type Foundry
+
+1. [The League of Movable Type](https://www.theleagueofmoveabletype.com/)
+2. [Fontshare by Indian Type Foundry (ITF)](https://www.fontshare.com/)
+3. [Fontfabric](https://www.fontfabric.com/free-fonts/)
+4. [The Velvetyne Type Foundry (VTF)](https://velvetyne.fr/)
+
+
 
 ## Classification
 
@@ -74,7 +107,6 @@ This is the most official way of classification. It categorises fonts as follows
    5. Gaelic
 
 4. Non-Latin
-
 
 
 #### Links <!-- omit from toc --> 
