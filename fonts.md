@@ -3,7 +3,11 @@
 - [Marketplaces](#marketplaces)
 - [By Tech Companies](#by-tech-companies)
 - [WebApps](#webapps)
+- [Learning](#learning)
+- [Inspiration](#inspiration)
+- [Default Fonts](#default-fonts)
 - [Font Superfamilies](#font-superfamilies)
+- [Free alternatives to proprietary typefaces](#free-alternatives-to-proprietary-typefaces)
 - [Aggregators](#aggregators)
 - [Notable Type Foundries](#notable-type-foundries)
 - [Classification](#classification)
@@ -69,11 +73,14 @@
    * Courier (monospaced slab-serif)
 
 **MicroSoft**
-   * Cascadia Code (for VSCode)
-     * Cascadia Code
-     * Cascadia Code PL - embedded Powerline symbols.
-     * Cascadia Mono
-     * Cascadia Mono PL 
+   * Cascadia Code (for VSCode, Windows Terminal)
+   * Segoe UI (Windows default)
+   * Calibri (MS Office default)
+   * Tenorite 
+   * Bierstadt 
+   * Skeena 
+   * Seaford
+   * Grandview
 
 
 **Canonical**
@@ -93,7 +100,39 @@
 
 ## WebApps
 
-- [FontBolt](https://www.fontbolt.com/) - Discover, Download and Generate your favorite fonts from pop culture 100% Free. 
+- [Golden Ratio Typography Calculator](https://grtcalculator.com/)
+- [WordMark](https://wordmark.it/) - Compare multiple fonts in a visual grid.
+- [Kern Type](https://type.method.ac/) - a letter spacing / kerning game.
+- [Font Meme](https://fontmeme.com/) - Discover fonts used in popular culture.
+- [FontBolt](https://www.fontbolt.com/) - Generate your text from pop culture fonts. 
+- [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, and patcher
+- [Fonts in use](https://fontsinuse.com/)
+- [Standard Font List](https://www.impactsigns.com/standard-font-list/)
+
+
+## Learning
+1. [Butterick's Practical Typography](https://practicaltypography.com/)
+2. [Typekit Practice](https://practice.typekit.com/)
+  
+
+## Inspiration
+
+  1. [Discover Typograpgy](https://discover.typography.com/) - From the designers at H&Co.
+
+
+
+## Default Fonts
+
+| Application    | Font Name       |
+| -------------- | --------------- |
+| Windows        | Segoe UI        |
+| MacOS          | San Francisco   |
+| iOS            | San Francisco   |
+| Android        | Roboto          |
+| MS Office      | Aptos           |
+| Google Docs    | Arial           |
+| LaTeX          | Computer Modern |
+
 
 
 ## Font Superfamilies
@@ -101,6 +140,7 @@
 The norm in a superfamily is to start from an identical character shape then adding class-specific features such as serifs to that shape. The result is a set of fonts with a similar appearance that belong to different classes such as sans, serif, slab serif, rounded.
 In typography, a font superfamily or typeface superfamily is a font family containing fonts that fall into multiple classifications.
 
+* **GNU FreeFont** - FreeSans, FreeSerif, FreeMono
 * **Meta** - comprising FF Meta (sans), FF Meta Serif and FF Meta Headline
 * **Scala** - comprising FF Scala (serif) and FF Scala Sans
 * **Merriweather** - comprising Merriweather and Merriweather Sans
@@ -113,7 +153,93 @@ In typography, a font superfamily or typeface superfamily is a font family conta
 * **Noto** fonts - comprising Noto Sans, Noto Serif and Noto Mono, an expansion of the Droid family. It supports a wide range of languages.
 * **Droid** - comprising Droid Sans, Droid Serif and Droid Sans Mono.
 * **Roboto** - comprising Roboto, Roboto Slab and Roboto Mono
-* **GNU FreeFont** - FreeSans, FreeSerif, FreeMono
+
+
+## Free alternatives to proprietary typefaces
+
+The [TeX Gyre](https://www.gust.org.pl/projects/e-foundry/tex-gyre) (TG) Collection of Fonts
+ 1. Adventor (ITC Avant Garde Gothic)
+ 2. Bonum (ITC Bookman)
+ 3. Chorus (ITC Zapf Chancery) 
+ 4. Cursor (Courier) 
+ 5. Heros (Helvetica)
+ 6. Pagella (Palatino)
+ 7. Schola (Century Schoolbook)
+ 8. Termes (Times New Roman)
+
+- Linux Libertine (Times New Roman) (Wikipedia Logo)
+  - Libertinus Serif
+  - Common Serif
+- Linux Biolinum (Optima)
+  - Libertinus Serif
+
+[DejaVu fonts](https://dejavu-fonts.github.io/) (based on the Vera Fonts)
+   * Sans: Book, Bold, Oblique, Bold Oblique, Condensed, Condensed Bold, Condensed Oblique and Condensed Bold Oblique, Extralight
+   * Serif: Book, Bold, Italic, Bold Italic, Condensed, Condensed Bold, Condensed Italic and Condensed Bold Italic
+   * Mono: Book, Bold, Oblique, Bold Oblique
+
+Bitstream (BT) (Matthew Carter)
+  - Bitstream Vera (repackaged as Bera, for LaTeX)
+    - serif 
+    - sans-serif (Verdana)
+    - monospace
+  - Bitstream Charter (Transitional Slab-Serif)
+    - XCharter
+    - Charis SIL
+
+Nimbus Fonts (URW++)
+  - Nimbus Sans L, which emulates Helvetica and Arial
+  - Nimbus Roman No9 L, which emulates Times and Times New Roman very closely
+  - Nimbus Mono, which emulates Courier and Courier New fairly closely
+
+Liberation Fonts
+Originally distributed by Red Hat in 2007, there are three flavors:
+  - Liberation Sans, which emulates Arial, Helvetica, Nimbus Sans L, and to a lesser extent Bitstream Vera Sans/DejaVu Sans
+  - Liberation Serif, which emulates Times New Roman, Nimbus Roman, and to a lesser extent Bitstream Vera Serif/DejaVu Serif
+  - Liberation Mono, which emulates Courier New, Nimbus Mono L, and the Bitstream Vera/DejaVu monospace fonts
+
+
+| Proprietary Font    | Free Licensed Equivalent                                      |
+| ------------------- | ------------------------------------------------------------- |
+| Alternate Gothic #1 | League Gothic                                                 |
+| Arial               | Liberation Sans\*, Pt Sans, Open Sans Condensed, Lato         |
+| Arial Narrow        | Liberation Sans Narrow\*                                      |
+| Avenir              | Mint Spirit No2, Nunito                                       |
+| Baskerville         | Baskervald ADF Standard                                       |
+| Bembo               | EB Garamond                                                   |
+| Bodoni              | Accanthis-Std, Oranienbaum                                    |
+| Caladea             | Cambria\*                                                     |
+| Calibri             | Carlito\*                                                     |
+| Centaur             | Coelacanth                                                    |
+| Century Gothic      | Muli                                                          |
+| Comic Sans          | Comic Relief                                                  |
+| Courier             | Liberation Mono                                               |
+| Courier 10 Pitch    | Courier Code\*                                                |
+| Courier New         | Cousine                                                       |
+| Eurostile           | Jura                                                          |
+| Frutiger            | Istok Normal 400                                              |
+| Futura              | Mint Spirit No2, Nunito                                       |
+| Futura Light        | Futura Renner Light                                           |
+| Garamond            | Crimson Text, EB Garamond                                     |
+| Georgia             | Nimbus Roman No. 9                                            |
+| Gill Sans           | Cabin, Gillius ADF, Hammersmith One, Railway Regular, Raleway |
+| Goudy Old Style     | Goudy Bookletter 1911, Linden Hill, Sort Mills                |
+| Helvetica           | Liberation Sans,\* Pt Sans, Open Sans Condensed, Lato         |
+| Helvetica Narrow    | Liberation Sans Narrow\*                                      |
+| Joanna              | Fanwood                                                       |
+| Letter Gothic       | Josefin Sans, Josefin Slab                                    |
+| Myriad              | Junction, Pt. Sans                                            |
+| News Gothic         | News Cycle                                                    |
+| Stone Sans          | Nunito                                                        |
+| Stone Serif         | Lustria                                                       |
+| Tahoma              | Lucida Sans, Nimbus Sans                                      |
+| Times New Roman     | Liberation Serif\*, Linux Libertine\*                         |
+| Trajan              | Cinzel                                                        |
+| Univers             | Universalist-std                                              |
+| Verdana             | DejaVu Sans                                                   |
+
+\* Metrical equivalents
+
 
 
 
@@ -224,7 +350,7 @@ This is the official way of classification. It categorises fonts as follows:
    1. Thin
    2. ExtraLight/UltraLight
    3. Light
-   4. Regular/Normal
+   4. Regular/Normal/Book
    5. Medium/Text
    6. SemiBold/Demibold
    7. Bold
@@ -294,9 +420,9 @@ Variable fonts are a relatively recent innovation in font technology that differ
 ## Reference Links <!-- omit from toc --> 
 
 - [Wikipedia - Vox-ATypI classification](https://en.wikipedia.org/wiki/Vox-ATypI_classification)
-- [Monotype - A guide to type styles.](https://www.monotype.com/resources/guide-type-styles)
 - [Periodic Table of Popular Typefaces](https://olypress.com/periodic-table-of-popular-typefaces/)
-- [Design is history - TYPE CLASSIFICATION](http://www.designishistory.com/1450/type-classification/)
+- [Open-source Unicode typefaces](https://en.wikipedia.org/wiki/Open-source_Unicode_typefaces)
+- [A Web Designer’s Guide to Linux Fonts](https://www.webfx.com/blog/web-design/a-web-designers-guide-to-linux-fonts/)
 - [The 100 Top Typefaces](https://bonfx.com/best-fonts/)
 
 
