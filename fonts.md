@@ -2,7 +2,7 @@
 
 - [Marketplaces](#marketplaces)
 - [By Tech Companies](#by-tech-companies)
-- [Free Font Alternatives](#free-font-alternatives)
+- [WebApps](#webapps)
 - [Font Superfamilies](#font-superfamilies)
 - [Aggregators](#aggregators)
 - [Notable Type Foundries](#notable-type-foundries)
@@ -22,7 +22,7 @@
 
 ## By Tech Companies
 
-* GitHub
+**GitHub**
   * [monaspace](https://monaspace.githubnext.com/) - An innovative superfamily of fonts for code
     * Neon - Neo-grotesque sans
     * Argon - Humanist sans
@@ -33,14 +33,14 @@
     * Hubot sans
 
 
-* [Apple](https://developer.apple.com/fonts/)
-  * San Francisco
+**Apple**
+  * [San Francisco](https://developer.apple.com/fonts/)
     * SF Pro
     * SF Compact
     * SF Mono
     * New York (Serif companion)
 
-* Mozilla
+**Mozilla**
   * [Fira](https://www.fontsquirrel.com/fonts/list/foundry/mozilla)
     * Fira Code (ligatures)
     * Fira Mono
@@ -48,73 +48,107 @@
     * Fira Math (serif)
     * Fira Go (multilingual extension)
 
-* Adobe
+**Adobe**
   * Source
     * Source Code Pro
     * Source Sans Pro
-    * Source Serif Pro
-
-* [Google](https://github.com/google/fonts)
+    * Source Serif Pro 
+  
+[**Google**](https://github.com/google/fonts)
   * Noto (all languages)
+  * Droid
   * Roboto
   * Product Sans (Google Logo font)
 
+**IBM**
+   * [Plex](https://www.ibm.com/plex/)
+     * IBM Plex Sans
+     * IBM Plex Mono
+     * IBM Plex Serif
+     * IBM Plex Condensed
+   * Courier (monospaced slab-serif)
 
-## Free Font Alternatives
+**MicroSoft**
+   * Cascadia Code (for VSCode)
+     * Cascadia Code
+     * Cascadia Code PL - embedded Powerline symbols.
+     * Cascadia Mono
+     * Cascadia Mono PL 
 
-- [Fonts Arena](https://fontsarena.com/articles-about/free-font-alternatives/)
+
+**Canonical**
+   * [Ubuntu font](https://design.ubuntu.com/font)
+     * Ubuntu
+     * Ubuntu Monospace
+
+**Red Hat**
+   * Overpass
+   * Liberation fonts
+     * Liberation Sans
+     * Liberation Sans Narrow
+     * Liberation Serif
+     * Liberation Mono
+
+
+
+## WebApps
+
+- [FontBolt](https://www.fontbolt.com/) - Discover, Download and Generate your favorite fonts from pop culture 100% Free. 
+
 
 ## Font Superfamilies
 
-The norm in a superfamily is to start from an identical character shape; class-specific features such as serifs are added to that shape. The result is a set of fonts with a similar appearance that belong to different classes such as sans, serif, slab serif, rounded.
+The norm in a superfamily is to start from an identical character shape then adding class-specific features such as serifs to that shape. The result is a set of fonts with a similar appearance that belong to different classes such as sans, serif, slab serif, rounded.
 In typography, a font superfamily or typeface superfamily is a font family containing fonts that fall into multiple classifications.
 
 * **Meta** - comprising FF Meta (sans), FF Meta Serif and FF Meta Headline
 * **Scala** - comprising FF Scala (serif) and FF Scala Sans
 * **Merriweather** - comprising Merriweather and Merriweather Sans
-* **PT Fonts** - comprising PT Serif, PT Sans and PT Mono.
+* **PT Fonts** - The Public Type or PT Fonts comprises of PT Serif, PT Sans and PT Mono.
 * **Source** - comprising Source Sans Pro, Source Serif Pro and Source Code Pro
 * **Thesis** - comprising TheSans, TheSerif, TheMix and TheAntiqua
 * **Computer Modern** - comprising cmr (antiqua), cmss (grotesque) and cmtt (monospaced)
 * **DejaVu** and **Bitstream Vera** - comprising DejaVu Sans, DejaVu Sans Mono and DejaVu Serif.
-* **Droid** - comprising Droid Sans, Droid Serif and Droid Sans Mono.
 * **IBM Plex** - comprising IBM Plex Sans, IBM Plex Sans Condensed, IBM Plex Serif and IBM Plex Mono
 * **Noto** fonts - comprising Noto Sans, Noto Serif and Noto Mono, an expansion of the Droid family. It supports a wide range of languages.
+* **Droid** - comprising Droid Sans, Droid Serif and Droid Sans Mono.
 * **Roboto** - comprising Roboto, Roboto Slab and Roboto Mono
+* **GNU FreeFont** - FreeSans, FreeSerif, FreeMono
 
 
 
 ## Aggregators
 
-1. [GitHub](https://github.com/topics/font)
-2. [FontShop](https://www.fontshop.com/free-fonts)
-3. [Beautiful Web Type](https://beautifulwebtype.com/)
-4. [uncut.wtf](https://uncut.wtf/)
-5. [FontSpace](https://www.fontspace.com/)
-6. [DaFont](https://www.dafont.com/)
-7. [BeFonts](https://befonts.com/)
-8. [Font Squirrel](https://www.fontsquirrel.com/)
-9. [FontSpring](https://www.fontspring.com/)
-10. [Abstract Fonts](https://www.abstractfonts.com/)
-11. [1001 Free Fonts](https://www.1001freefonts.com/)
-12. [FontStruct](https://fontstruct.com/gallery)
-13. [Urban Fonts](https://www.urbanfonts.com/free-fonts.htm)
-14. [FontBundles](https://fontbundles.net/free-fonts)
-15. [fonts.com Free section](https://www.fonts.com/browse?priceMax=family:pricing:free)
-16. [Fontsly](https://fontsly.com/)
-17. [creativetacos](https://creativetacos.com/category/free-fonts/)
-18. [Open Foundry](https://open-foundry.com/fonts)
-19. [Fontasy](http://fontasy.org/)
-20. [FontZone](https://fontzone.net/)
-21. [FontPark](https://fontpark.com/)
-22. [FontM](https://fontm.com/)
-23. [Font River](https://www.fontriver.com/)
-24. [FontCubes](http://www.fontcubes.com/)
-25. [FontPalace](https://www.fontpalace.com/)
-26. [The League of Movable Type](https://www.theleagueofmoveabletype.com/)
-27. [Fontshare by Indian Type Foundry (ITF)](https://www.fontshare.com/)
-28. [Fontfabric](https://www.fontfabric.com/free-fonts/)
-29. [The Velvetyne Type Foundry (VTF)](https://velvetyne.fr/)
+1. [The LaTeX Font Catalogue](https://tug.org/FontCatalogue/)
+2. [Font Squirrel](https://www.fontsquirrel.com/)
+3. [DaFont](https://www.dafont.com/)
+4. [GitHub](https://github.com/topics/font)
+5. [Fontshare](https://www.fontshare.com/) by Indian Type Foundry (ITF)
+6. [The League of Movable Type](https://www.theleagueofmoveabletype.com/)
+7. [FontShop](https://www.fontshop.com/free-fonts)
+8. [Beautiful Web Type](https://beautifulwebtype.com/)
+9. [uncut.wtf](https://uncut.wtf/)
+10. [FontSpace](https://www.fontspace.com/)
+11. [BeFonts](https://befonts.com/)
+12. [FontSpring](https://www.fontspring.com/)
+13. [Abstract Fonts](https://www.abstractfonts.com/)
+14. [1001 Free Fonts](https://www.1001freefonts.com/)
+15. [FontStruct](https://fontstruct.com/gallery)
+16. [Urban Fonts](https://www.urbanfonts.com/free-fonts.htm)
+17. [FontBundles](https://fontbundles.net/free-fonts)
+18. [fonts.com](https://www.fonts.com/browse?priceMax=family:pricing:free) Free section
+19. [Fontsly](https://fontsly.com/)
+20. [creativetacos](https://creativetacos.com/category/free-fonts/)
+21. [Open Foundry](https://open-foundry.com/fonts)
+22. [Fontasy](http://fontasy.org/)
+23. [FontZone](https://fontzone.net/)
+24. [FontPark](https://fontpark.com/)
+25. [FontM](https://fontm.com/)
+26. [Font River](https://www.fontriver.com/)
+27. [FontCubes](http://www.fontcubes.com/)
+28. [FontPalace](https://www.fontpalace.com/)
+29. [Fontfabric](https://www.fontfabric.com/free-fonts/)
+30. [The Velvetyne Type Foundry (VTF)](https://velvetyne.fr/)
 
 
 ## Notable Type Foundries
@@ -142,54 +176,20 @@ In typography, a font superfamily or typeface superfamily is a font family conta
 
 ## Classification
 
-Today, the most common typeface classifications are the following 5:
+The most common typeface classifications are:
 
 1. Serif
 2. Sans serif
-3. Script
-4. Monospaced
-5. Display
-
-Commonly, you’ll find groupings such as:
-
-* Serif
-* Sans serif
-* Slab serif
-* Monospaced
-
-Then there are those that are slightly more ambiguous in terms of their potential overlap, but have a shared meaning to most of us, such as:
-
-* Script
-* Handwriting
-* Display
-
-A more nuanced subgrouping would be like this:
-
-A) **Serif**
- 1. Humanist
- 2. Garalde
- 3. Transitional
- 4. Didone
- 5. Slab
-
-B) **Sans**
- 1. Grotesque
- 2. Neo-grotesque
- 3. Geometric
- 4. Humanist sans
-
-C) **Everything else**
- 1. Script
- 2. Graphic
- 3. Blackletter
- 4. Incised
+3. Monospaced
+4. Display
+5. Script
 
 
 ### Vox-ATypI classification <!-- omit from toc --> 
 
-This is the most official way of classification. It categorises fonts as follows:
+This is the official way of classification. It categorises fonts as follows:
 
-1. Classicals (*Oldstyle* Serif)
+1. Classicals (*Oldstyle Serif*)
    1. Humanist
    2. Garalde
    3. Transitional
@@ -215,40 +215,35 @@ This is the most official way of classification. It categorises fonts as follows
 
 ## Variations
 
-1. **Weight Variations:**
-   - **Thin:** Very light strokes, thinner than regular.
-   - **ExtraLight/UltraLight:** Slightly heavier than Thin but still very light.
-   - **Light:** Lighter than Regular but slightly heavier than Thin or ExtraLight.
-   - **Regular/Normal:** The standard font weight.
-   - **Medium:** Between Regular and SemiBold.
-   - **SemiBold:** Moderately bold, heavier than Regular.
-   - **Bold:** Heavier and darker than Regular.
-   - **ExtraBold/UltraBold:** Heavier than Bold, approaching the maximum weight in the family.
-   - **Black/Heavy:** The heaviest and darkest weight in the family.
+**Common Style Variations**
+   1. **Bold**
+   2. **Italics** (*Slanted/Oblique*)
+   3. **Small Caps (SC)**
 
-2. **Width Variations:**
-   - **Condensed:** Characters are narrower compared to the standard width.
-   - **SemiCondensed:** Moderately narrower than the standard width.
-   - **Normal/Regular:** The standard width.
-   - **SemiExpanded:** Slightly wider than the standard width.
-   - **Expanded:** Characters are broader compared to the standard width.
+**Weight Variations:**
+   1. Thin
+   2. ExtraLight/UltraLight
+   3. Light
+   4. Regular/Normal
+   5. Medium/Text
+   6. SemiBold/Demibold
+   7. Bold
+   8. ExtraBold/UltraBold
+   9. Black/Heavy
 
-3. **Style Variations:**
-   - **Italic:** Slanted version of the typeface, not always just a slant but sometimes slightly altered letterforms.
-   - **Oblique:** Similar to Italic, but the letters are slanted without distinct cursive features.
+**Width Variations:**
+   1. Condensed
+   1. SemiCondensed
+   1. Normal/Regular
+   1. SemiExpanded
+   1. Expanded
 
-4. **Special Variations:**
-   - **Rounded:** Characters have rounded terminals instead of sharp angles or serifs.
-   - **Stencil:** Characters have breaks or gaps within their forms, simulating the effect of stencils.
-   - **Serif/Sans-serif:** Serif fonts have small lines or decorative features at the ends of characters, while sans-serif fonts do not have these features.
-   - **Script/Handwriting:** Fonts that mimic handwriting or calligraphy styles.
-   - **Display/Decorative:** Fonts designed for titles or larger sizes, often more ornate or decorative.
-
-5. **Additional Variations:**
-   - **Small Caps:** Capital letters that are similar in size to lowercase letters.
-   - **All Caps:** All text in capital letters.
-   - **Titling:** Fonts optimized for large sizes and display purposes.
-   - **SC (Small Caps):** A separate font style where lowercase letters are replaced by smaller versions of uppercase letters.
+**Special Variations:**
+   - Rounded
+   - All Caps
+   - Stencil
+   - Display
+   - Caption
 
 There are a variety of elements that work together to create a typographic hierarchy, including:
 
@@ -282,14 +277,14 @@ There are a variety of elements that work together to create a typographic hiera
 
 Variable fonts are a relatively recent innovation in font technology that differ significantly from traditional static or non-variable fonts. Here are the key differences between variable fonts and other types of fonts:
 
-1. **Variable Fonts:**
+**Variable Fonts:**
    - **Variability:** Variable fonts contain multiple variations of a typeface (weight, width, slant, etc.) within a single file. They enable real-time adjustment of these attributes along a continuous spectrum, allowing for infinite possibilities of styles and weights.
    - **File Size:** Variable fonts typically have smaller file sizes compared to a collection of individual static fonts since they contain multiple variations in a single file.
    - **Flexibility:** They offer dynamic control over attributes like weight, width, slant, and optical size, allowing smoother transitions between styles and enabling designers to fine-tune typography for various screen sizes, resolutions, and environments.
    - **Efficiency:** They reduce the number of HTTP requests and file downloads on the web, enhancing performance by delivering multiple font styles in a single file.
    - **Support:** While gaining traction, variable font support is still evolving across different platforms, software, and browsers. However, major platforms and software increasingly support variable fonts.
 
-2. **Static or Non-Variable Fonts:**
+**Static or Non-Variable Fonts:**
    - **Individual Files:** Traditional fonts come as separate files for each style or weight (e.g., Regular, Bold, Italic, etc.), with each file containing a single style or variation.
    - **Limited Styles:** Each font file represents a specific style or weight, and using different styles requires downloading separate files, leading to more significant file sizes if numerous styles are needed.
    - **File Size:** As a result of having separate files for different styles, the overall file size can be larger when compared to variable fonts, especially when including multiple styles or weights.
