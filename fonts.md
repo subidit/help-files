@@ -1,39 +1,143 @@
 ## Contents <!-- omit from toc --> 
 
-- [Free Font Aggregators](#free-font-aggregators)
-- [Type Foundry](#type-foundry)
+- [Marketplaces](#marketplaces)
+- [By Tech Companies](#by-tech-companies)
+- [Free Font Alternatives](#free-font-alternatives)
+- [Font Superfamilies](#font-superfamilies)
+- [Aggregators](#aggregators)
+- [Notable Type Foundries](#notable-type-foundries)
 - [Classification](#classification)
+- [Variations](#variations)
+- [Knowledge Base](#knowledge-base)
+  - [Font Formats](#font-formats)
+  - [Variable Fonts](#variable-fonts)
 - [The 100 Top Typefaces](#the-100-top-typefaces)
 
+## Marketplaces
 
-## Free Font Aggregators
-
-1. [Google Fonts](https://fonts.google.com/)
-2. [Beautiful Web Type](https://beautifulwebtype.com/)
-3. [uncut.wtf](https://uncut.wtf/)
-4. [FontSpace](https://www.fontspace.com/)
-5. [DaFont](https://www.dafont.com/)
-6. [BeFonts](https://befonts.com/)
-7. [Font Squirrel](https://www.fontsquirrel.com/)
-8. [FontSpring](https://www.fontspring.com/)
-9. [Abstract Fonts](https://www.abstractfonts.com/)
-10. [1001 Free Fonts](https://www.1001freefonts.com/)
-11. [FontStruct](https://fontstruct.com/gallery)
-12. [Urban Fonts](https://www.urbanfonts.com/free-fonts.htm)
-13. [FontBundles](https://fontbundles.net/free-fonts)
-14. [fonts.com Free section](https://www.fonts.com/browse?priceMax=family:pricing:free)
-15. [Fontsly](https://fontsly.com/)
-16. [creativetacos](https://creativetacos.com/category/free-fonts/)
-17. [Open Foundry](https://open-foundry.com/fonts)
+- [MyFonts](https://www.myfonts.com/) (by Monotype) - 270,000 fonts
+- [Adobe Fonts](https://fonts.adobe.com/) (formerly Typekit) - 20,000 fonts
+- [Google Fonts](https://fonts.google.com/) - 1578 families
 
 
-## Type Foundry
+## By Tech Companies
 
-1. [The League of Movable Type](https://www.theleagueofmoveabletype.com/)
-2. [Fontshare by Indian Type Foundry (ITF)](https://www.fontshare.com/)
-3. [Fontfabric](https://www.fontfabric.com/free-fonts/)
-4. [The Velvetyne Type Foundry (VTF)](https://velvetyne.fr/)
+* GitHub
+  * [monaspace](https://monaspace.githubnext.com/) - An innovative superfamily of fonts for code
+    * Neon - Neo-grotesque sans
+    * Argon - Humanist sans
+    * Xenon - Slab serif
+    * Radon - Handwriting
+    * Krypton - Mechanical sans
+  * [Mona Sans](https://github.com/mona-sans)
+    * Hubot sans
 
+
+* [Apple](https://developer.apple.com/fonts/)
+  * San Francisco
+    * SF Pro
+    * SF Compact
+    * SF Mono
+    * New York (Serif companion)
+
+* Mozilla
+  * [Fira](https://www.fontsquirrel.com/fonts/list/foundry/mozilla)
+    * Fira Code (ligatures)
+    * Fira Mono
+    * Fira Sans
+    * Fira Math (serif)
+    * Fira Go (multilingual extension)
+
+* Adobe
+  * Source
+    * Source Code Pro
+    * Source Sans Pro
+    * Source Serif Pro
+
+* [Google](https://github.com/google/fonts)
+  * Noto (all languages)
+  * Roboto
+  * Product Sans (Google Logo font)
+
+
+## Free Font Alternatives
+
+- [Fonts Arena](https://fontsarena.com/articles-about/free-font-alternatives/)
+
+## Font Superfamilies
+
+The norm in a superfamily is to start from an identical character shape; class-specific features such as serifs are added to that shape. The result is a set of fonts with a similar appearance that belong to different classes such as sans, serif, slab serif, rounded.
+In typography, a font superfamily or typeface superfamily is a font family containing fonts that fall into multiple classifications.
+
+* **Meta** - comprising FF Meta (sans), FF Meta Serif and FF Meta Headline
+* **Scala** - comprising FF Scala (serif) and FF Scala Sans
+* **Merriweather** - comprising Merriweather and Merriweather Sans
+* **PT Fonts** - comprising PT Serif, PT Sans and PT Mono.
+* **Source** - comprising Source Sans Pro, Source Serif Pro and Source Code Pro
+* **Thesis** - comprising TheSans, TheSerif, TheMix and TheAntiqua
+* **Computer Modern** - comprising cmr (antiqua), cmss (grotesque) and cmtt (monospaced)
+* **DejaVu** and **Bitstream Vera** - comprising DejaVu Sans, DejaVu Sans Mono and DejaVu Serif.
+* **Droid** - comprising Droid Sans, Droid Serif and Droid Sans Mono.
+* **IBM Plex** - comprising IBM Plex Sans, IBM Plex Sans Condensed, IBM Plex Serif and IBM Plex Mono
+* **Noto** fonts - comprising Noto Sans, Noto Serif and Noto Mono, an expansion of the Droid family. It supports a wide range of languages.
+* **Roboto** - comprising Roboto, Roboto Slab and Roboto Mono
+
+
+
+## Aggregators
+
+1. [GitHub](https://github.com/topics/font)
+2. [FontShop](https://www.fontshop.com/free-fonts)
+3. [Beautiful Web Type](https://beautifulwebtype.com/)
+4. [uncut.wtf](https://uncut.wtf/)
+5. [FontSpace](https://www.fontspace.com/)
+6. [DaFont](https://www.dafont.com/)
+7. [BeFonts](https://befonts.com/)
+8. [Font Squirrel](https://www.fontsquirrel.com/)
+9. [FontSpring](https://www.fontspring.com/)
+10. [Abstract Fonts](https://www.abstractfonts.com/)
+11. [1001 Free Fonts](https://www.1001freefonts.com/)
+12. [FontStruct](https://fontstruct.com/gallery)
+13. [Urban Fonts](https://www.urbanfonts.com/free-fonts.htm)
+14. [FontBundles](https://fontbundles.net/free-fonts)
+15. [fonts.com Free section](https://www.fonts.com/browse?priceMax=family:pricing:free)
+16. [Fontsly](https://fontsly.com/)
+17. [creativetacos](https://creativetacos.com/category/free-fonts/)
+18. [Open Foundry](https://open-foundry.com/fonts)
+19. [Fontasy](http://fontasy.org/)
+20. [FontZone](https://fontzone.net/)
+21. [FontPark](https://fontpark.com/)
+22. [FontM](https://fontm.com/)
+23. [Font River](https://www.fontriver.com/)
+24. [FontCubes](http://www.fontcubes.com/)
+25. [FontPalace](https://www.fontpalace.com/)
+26. [The League of Movable Type](https://www.theleagueofmoveabletype.com/)
+27. [Fontshare by Indian Type Foundry (ITF)](https://www.fontshare.com/)
+28. [Fontfabric](https://www.fontfabric.com/free-fonts/)
+29. [The Velvetyne Type Foundry (VTF)](https://velvetyne.fr/)
+
+
+## Notable Type Foundries
+
+* Monotype
+  * Linotype  
+  * International Typeface Corporation (ITC)
+  * Bitstream
+  * FontShop 
+  * URW Type Foundry 
+  * Hoefler & Co.
+* Adobe Originals
+* Apple Inc.
+* Blambot
+* Dalton Maag
+* Dharma Type
+* Emigre
+* Font Bureau
+* FontFont (FF)
+* Google Design
+* Indian Type Foundry (ITF)
+* P22 Type Foundry
+* Typotheque
 
 
 ## Classification
@@ -74,7 +178,7 @@ B) **Sans**
  3. Geometric
  4. Humanist sans
 
-C) Everything else
+C) **Everything else**
  1. Script
  2. Graphic
  3. Blackletter
@@ -85,36 +189,66 @@ C) Everything else
 
 This is the most official way of classification. It categorises fonts as follows:
 
-1. Classicals
+1. Classicals (*Oldstyle* Serif)
    1. Humanist
    2. Garalde
    3. Transitional
 
 2. Moderns
    1. Didone
-   2. Mechanistic
-   3. Lineal
+   2. Mechanistic (Slab-Serif)
+   3. **Lineal (Sans-Serif)**
       1. Grotesque
       2. Neo-grotesque
       3. Geometric
       4. Humanist
 
 3. Calligraphics
-   1. Glyphic
+   1. Glyphic (Incised)
    2. Script
    3. Graphic
    4. Blackletter
-   5. Gaelic
+   5. Gaelic (Insular script)
 
 4. Non-Latin
 
 
-#### Links <!-- omit from toc --> 
+## Variations
 
-- [Wikipedia - Vox-ATypI classification](https://en.wikipedia.org/wiki/Vox-ATypI_classification)
-- [Monotype - A guide to type styles.](https://www.monotype.com/resources/guide-type-styles)
-- [Design is history - TYPE CLASSIFICATION](http://www.designishistory.com/1450/type-classification/)
-- [The 100 Top Typefaces](https://bonfx.com/best-fonts/)
+1. **Weight Variations:**
+   - **Thin:** Very light strokes, thinner than regular.
+   - **ExtraLight/UltraLight:** Slightly heavier than Thin but still very light.
+   - **Light:** Lighter than Regular but slightly heavier than Thin or ExtraLight.
+   - **Regular/Normal:** The standard font weight.
+   - **Medium:** Between Regular and SemiBold.
+   - **SemiBold:** Moderately bold, heavier than Regular.
+   - **Bold:** Heavier and darker than Regular.
+   - **ExtraBold/UltraBold:** Heavier than Bold, approaching the maximum weight in the family.
+   - **Black/Heavy:** The heaviest and darkest weight in the family.
+
+2. **Width Variations:**
+   - **Condensed:** Characters are narrower compared to the standard width.
+   - **SemiCondensed:** Moderately narrower than the standard width.
+   - **Normal/Regular:** The standard width.
+   - **SemiExpanded:** Slightly wider than the standard width.
+   - **Expanded:** Characters are broader compared to the standard width.
+
+3. **Style Variations:**
+   - **Italic:** Slanted version of the typeface, not always just a slant but sometimes slightly altered letterforms.
+   - **Oblique:** Similar to Italic, but the letters are slanted without distinct cursive features.
+
+4. **Special Variations:**
+   - **Rounded:** Characters have rounded terminals instead of sharp angles or serifs.
+   - **Stencil:** Characters have breaks or gaps within their forms, simulating the effect of stencils.
+   - **Serif/Sans-serif:** Serif fonts have small lines or decorative features at the ends of characters, while sans-serif fonts do not have these features.
+   - **Script/Handwriting:** Fonts that mimic handwriting or calligraphy styles.
+   - **Display/Decorative:** Fonts designed for titles or larger sizes, often more ornate or decorative.
+
+5. **Additional Variations:**
+   - **Small Caps:** Capital letters that are similar in size to lowercase letters.
+   - **All Caps:** All text in capital letters.
+   - **Titling:** Fonts optimized for large sizes and display purposes.
+   - **SC (Small Caps):** A separate font style where lowercase letters are replaced by smaller versions of uppercase letters.
 
 There are a variety of elements that work together to create a typographic hierarchy, including:
 
@@ -124,6 +258,52 @@ There are a variety of elements that work together to create a typographic hiera
 4. Contrast
 5. Case
 6. Position and alignment
+
+
+## Knowledge Base
+
+### Font Formats
+
+1. **TrueType (.ttf):** Developed by Apple and Microsoft in the late 1980s, TrueType fonts are widely used and supported by both operating systems. They contain both the font outlines and the font instructions for rendering glyphs.
+
+2. **OpenType (.otf):** A more versatile and modern font format developed by Adobe and Microsoft. OpenType fonts can contain more glyphs (characters), support more languages, include advanced typographic features, and have better cross-platform compatibility. OpenType fonts can also be either TrueType-based or PostScript-based.
+
+3. **PostScript Type 1 (.pfb, .pfm):** Developed by Adobe, PostScript fonts were widely used in the past. They contain vector outlines of characters and were commonly used for printing. However, they've largely been replaced by OpenType fonts due to their limitations.
+
+4. **Web Open Font Format (WOFF, WOFF2):** These formats are specifically optimized for web use. WOFF and WOFF2 are compressed font formats that help improve web page loading times by reducing file sizes. They are based on OpenType or TrueType fonts and are widely supported by modern web browsers.
+
+5. **Embedded OpenType (EOT):** Another font format developed by Microsoft specifically for Internet Explorer. EOT fonts were created to address some security and licensing issues for web fonts but have been largely replaced by WOFF and WOFF2 formats.
+
+6. **SVG Fonts (.svg):** Based on Scalable Vector Graphics (SVG), these fonts use XML to describe glyphs, and each character is defined using vector graphics. SVG fonts are less common and have been largely superseded by other formats due to limitations in features and compatibility.
+
+7. **TrueType GX/AAT fonts:** These are variations of the TrueType format that support advanced typography and layout features. They were developed by Apple and are not widely used.
+
+### Variable Fonts
+
+Variable fonts are a relatively recent innovation in font technology that differ significantly from traditional static or non-variable fonts. Here are the key differences between variable fonts and other types of fonts:
+
+1. **Variable Fonts:**
+   - **Variability:** Variable fonts contain multiple variations of a typeface (weight, width, slant, etc.) within a single file. They enable real-time adjustment of these attributes along a continuous spectrum, allowing for infinite possibilities of styles and weights.
+   - **File Size:** Variable fonts typically have smaller file sizes compared to a collection of individual static fonts since they contain multiple variations in a single file.
+   - **Flexibility:** They offer dynamic control over attributes like weight, width, slant, and optical size, allowing smoother transitions between styles and enabling designers to fine-tune typography for various screen sizes, resolutions, and environments.
+   - **Efficiency:** They reduce the number of HTTP requests and file downloads on the web, enhancing performance by delivering multiple font styles in a single file.
+   - **Support:** While gaining traction, variable font support is still evolving across different platforms, software, and browsers. However, major platforms and software increasingly support variable fonts.
+
+2. **Static or Non-Variable Fonts:**
+   - **Individual Files:** Traditional fonts come as separate files for each style or weight (e.g., Regular, Bold, Italic, etc.), with each file containing a single style or variation.
+   - **Limited Styles:** Each font file represents a specific style or weight, and using different styles requires downloading separate files, leading to more significant file sizes if numerous styles are needed.
+   - **File Size:** As a result of having separate files for different styles, the overall file size can be larger when compared to variable fonts, especially when including multiple styles or weights.
+   - **Fixed Styles:** Static fonts have fixed styles, and any interpolation between styles requires separate font files or modifying the design itself.
+
+
+## Reference Links <!-- omit from toc --> 
+
+- [Wikipedia - Vox-ATypI classification](https://en.wikipedia.org/wiki/Vox-ATypI_classification)
+- [Monotype - A guide to type styles.](https://www.monotype.com/resources/guide-type-styles)
+- [Periodic Table of Popular Typefaces](https://olypress.com/periodic-table-of-popular-typefaces/)
+- [Design is history - TYPE CLASSIFICATION](http://www.designishistory.com/1450/type-classification/)
+- [The 100 Top Typefaces](https://bonfx.com/best-fonts/)
+
 
 
 ## The 100 Top Typefaces 
