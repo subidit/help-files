@@ -1,3 +1,101 @@
+# zsh Guide
+
+## Startup Files
+
+Startup files in the `/etc` directory are put by the system administrator and are run for all users. 
+
+Startup files in the `$HOME` or `~` directory is for each user. It is the usual location of `$ZDOTDIR`.
+
+| Startup file  | Description                            |
+| ------------- | -------------------------------------- |
+| /etc/zshenv   | Always run for every zsh.              |
+| ~/.zshenv     | Usually run for every zsh (see below). |
+| /etc/zprofile | Run for login shells.                  |
+| ~/.zprofile   | Run for login shells.                  |
+| /etc/zshrc    | Run for interactive shells.            |
+| ~/.zshrc      | Run for interactive shells.            |
+| /etc/zlogin   | Run for login shells.                  |
+| ~/.zlogin     | Run for login shells.                  |
+
+So, order of running is **`.zprofile > .zshrc > .zlogin`**
+The file `/etc/zshenv` is always run at the start of any zsh.
+First Law of Zsh Administration: put as little as possible in the file /etc/zshenv, as every single zsh which starts up has to read it. 
+
+## Keypress shortcuts
+
+| Key combination | Effect                                             |
+| --------------- | -------------------------------------------------- |
+| Control-A       | jump to start of line                              |
+| Control-E       | jump to end of line                                |
+| Meta-B          | move back one word                                 |
+| Meta-F          | move forward one word                              |
+| Control-D       | delete character forwards/list completions/log out |
+| Control-K       | delete to end of line                              |
+| Control-U       | delete whole line                                  |
+| Meta-Backspace  | delete one word to the left                        |
+| Meta-D          | delete one word to the right                       |
+| Control-T       | transpose two characters                           |
+| Meta-T          | transpose two words                                |
+
+## Types of shell
+
+1. **Interactive shell**: When you are typing at a prompt and waiting for each command to run. eg. `ls`
+2. **Non-interactive shell**: When the shell is reading commands from a file. eg. `zsh filename`
+3. **Login shell**: When you first log into the computer, the shell you are presented with is interactive, but it is also a login shell.
+
+
+## Notes
+
+- `sleep 3`
+- The shell tries to guess whether to use emacs or vi from the environment variables `$VISUAL` or `$EDITOR`, in that order.
+- Simple `.zshrc` for history
+```zsh
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.history
+```
+- History options
+  - `INC_APPEND_HISTORY`, `SHARE_HISTORY`, `HIST_EXPIRE_DUPS_FIRST`, `HIST_IGNORE_ALL_DUPS`, `HIST_SAVE_NO_DUPS` and `HIST_NO_FUNCTIONS`
+- The main prompt is in a parameter called either `$PS1` or `$PROMPT` or `$prompt`.
+  - There is also `$RPS1`, which prints a prompt at the right of the screen.
+  - `$PS2` is shown when the shell is waiting for some more input.
+  - `$PS3` is shown within a loop started by the shell's *select* mechanism, when the shell wants you to input a choice: see the *zshmisc* manual page.
+  - `$PS4` is useful in debugging.
+- `NO_BEEP`, `AUTO_CD`
+- `alias foo='print I said foo'`
+- The `|` (pipe) connects the output of the first command to the input of the next
+
+```zsh
+% pwd               # show the current directory
+  ~
+% zsh               # start a new shell, which 
+                    # is a separate process
+% cd tmp
+% pwd               # now I'm in a different
+                    # directory...
+  ~/tmp
+% exit              # leave the new shell...
+% pwd               # now I'm back where I was...
+  ~
+```
+
+### Symbolic links
+
+```zsh
+ln -s existing-file-name name-of-link
+#for example
+ln -s /usr/bin/ln ln
+```
+
+
+
+## Reference
+
+1. [A User's Guide to the Z-Shell](https://zsh.sourceforge.io/Guide/zshguide.html)
+2. Zsh homepage - [zsh.org](https://www.zsh.org/)
+
+
+<!-- (-no space->)
 # Plugins
 * zsh-autosuggestions
 * zsh-completions
@@ -89,229 +187,242 @@
 
 ## Index
 
-1. [File Management](#file-management)
-2. [Text Processing](#text-processing)
-3. [System Monitoring and Management](#system-monitoring-and-management)
-4. [Networking and Communication](#networking-and-communication)
-5. [Text Editing and Manipulation](#text-editing-and-manipulation)
-6. [Data Transfer and Synchronization](#data-transfer-and-synchronization)
-7. [File and Directory Search](#file-and-directory-search)
-8. [Terminal Customization and Visualization](#terminal-customization-and-visualization)
-9. [Web Browsing and Downloading](#web-browsing-and-downloading)
-10. [Audio and Multimedia](#audio-and-multimedia)
-11. [Calendar and Reminders](#calendar-and-reminders)
-12. [Version Control and Development](#version-control-and-development)
-13. [Text-to-Speech and Speech Synthesis](#text-to-speech-and-speech-synthesis)
-14. [Games and Entertainment](#games-and-entertainment)
-15. [Text Art and Animation](#text-art-and-animation)
+- [zsh Guide](#zsh-guide)
+  - [Startup Files](#startup-files)
+  - [Types of shell](#types-of-shell)
+- [Plugins](#plugins)
+  - [CLI Commands and utilities](#cli-commands-and-utilities)
+  - [Index](#index)
+  - [File Management](#file-management)
+  - [Text Processing](#text-processing)
+  - [System Monitoring and Management](#system-monitoring-and-management)
+  - [Networking and Communication](#networking-and-communication)
+  - [Text Editing and Manipulation](#text-editing-and-manipulation)
+  - [Data Transfer and Synchronization](#data-transfer-and-synchronization)
+  - [File and Directory Search](#file-and-directory-search)
+  - [Terminal Customization and Visualization](#terminal-customization-and-visualization)
+  - [Web Browsing and Downloading](#web-browsing-and-downloading)
+  - [Audio and Multimedia](#audio-and-multimedia)
+  - [Calendar and Reminders](#calendar-and-reminders)
+  - [Version Control and Development](#version-control-and-development)
+  - [Text-to-Speech and Speech Synthesis](#text-to-speech-and-speech-synthesis)
+  - [Games and Entertainment](#games-and-entertainment)
+  - [Text Art and Animation](#text-art-and-animation)
+    - [Text Processing and Manipulation](#text-processing-and-manipulation)
+    - [Data Transfer and Networking](#data-transfer-and-networking)
+    - [Terminal Multiplexing and Monitoring](#terminal-multiplexing-and-monitoring)
+    - [File and Disk Management](#file-and-disk-management)
+    - [Parallel Processing and Batch Jobs](#parallel-processing-and-batch-jobs)
+    - [Terminal Commands](#terminal-commands)
+      - [zshrc commands](#zshrc-commands)
 
 ## File Management
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| cat          | Concatenate and display the content of files.               |
-| mkdir        | Create a new directory.                                    |
-| rm           | Remove files or directories.                               |
-| touch        | Create an empty file.                                      |
-| tree         | Display directory structures in a tree-like format.        |
+| Name  | Description                                         |
+| ----- | --------------------------------------------------- |
+| cat   | Concatenate and display the content of files.       |
+| mkdir | Create a new directory.                             |
+| rm    | Remove files or directories.                        |
+| touch | Create an empty file.                               |
+| tree  | Display directory structures in a tree-like format. |
 
 ## Text Processing
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| awk          | Text processing tool for data extraction.                   |
-| grep         | Search for text within files.                               |
-| sed          | Stream editor for text manipulation.                       |
-| rev          | Reverse the characters in each line of text.               |
-| find         | Search for files and directories.                           |
+| Name | Description                                  |
+| ---- | -------------------------------------------- |
+| awk  | Text processing tool for data extraction.    |
+| grep | Search for text within files.                |
+| sed  | Stream editor for text manipulation.         |
+| rev  | Reverse the characters in each line of text. |
+| find | Search for files and directories.            |
 
 ## System Monitoring and Management
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| htop         | Interactive system process viewer.                         |
-| top          | Monitor system processes and resource usage.               |
-| pwd          | Print the current working directory.                       |
-| ncdu         | Disk usage analyzer with an interactive interface.          |
-| motd         | A utility to display the "Message of the Day" or welcome message when you log in. |
+| Name | Description                                                                       |
+| ---- | --------------------------------------------------------------------------------- |
+| htop | Interactive system process viewer.                                                |
+| top  | Monitor system processes and resource usage.                                      |
+| pwd  | Print the current working directory.                                              |
+| ncdu | Disk usage analyzer with an interactive interface.                                |
+| motd | A utility to display the "Message of the Day" or welcome message when you log in. |
 
 ## Networking and Communication
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| curl         | Transfer data from or to a server.                          |
-| ssh          | Securely connect to remote servers.                        |
-| rsync        | Synchronize files and directories between systems.         |
-| wget         | Download files from the web.                               |
-| speedtest-cli| Check your internet speed from the terminal.                |
+| Name          | Description                                        |
+| ------------- | -------------------------------------------------- |
+| curl          | Transfer data from or to a server.                 |
+| ssh           | Securely connect to remote servers.                |
+| rsync         | Synchronize files and directories between systems. |
+| wget          | Download files from the web.                       |
+| speedtest-cli | Check your internet speed from the terminal.       |
 
 ## Text Editing and Manipulation
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| nano or vim  | Text editors for the terminal.                             |
-| fortune      | Display random, humorous quotes.                           |
-| git          | Version control system for tracking changes in files.      |
-| wordgrinder  | A simple and distraction-free word processor for the terminal. |
-| remind       | A sophisticated calendar and alarm utility that can be used for reminders and to-do lists. |
+| Name        | Description                                                                                |
+| ----------- | ------------------------------------------------------------------------------------------ |
+| nano or vim | Text editors for the terminal.                                                             |
+| fortune     | Display random, humorous quotes.                                                           |
+| git         | Version control system for tracking changes in files.                                      |
+| wordgrinder | A simple and distraction-free word processor for the terminal.                             |
+| remind      | A sophisticated calendar and alarm utility that can be used for reminders and to-do lists. |
 
 ## Data Transfer and Synchronization
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| rsync        | Synchronize files and directories between systems.         |
-| wget         | Download files from the web.                               |
-| scp          | Securely copy files between systems.                        |
-| sftp         | Securely transfer files over SSH.                          |
-| ncftp        | FTP client with support for multiple connections.          |
+| Name  | Description                                        |
+| ----- | -------------------------------------------------- |
+| rsync | Synchronize files and directories between systems. |
+| wget  | Download files from the web.                       |
+| scp   | Securely copy files between systems.               |
+| sftp  | Securely transfer files over SSH.                  |
+| ncftp | FTP client with support for multiple connections.  |
 
 ## File and Directory Search
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| find         | Search for files and directories.                           |
-| locate       | Quickly find files and directories by name.                |
-| whereis      | Locate binary and source code files.                       |
-| updatedb     | Update the database used by the locate command.             |
-| fd           | A simple, fast, and user-friendly alternative to 'find'.    |
+| Name     | Description                                              |
+| -------- | -------------------------------------------------------- |
+| find     | Search for files and directories.                        |
+| locate   | Quickly find files and directories by name.              |
+| whereis  | Locate binary and source code files.                     |
+| updatedb | Update the database used by the locate command.          |
+| fd       | A simple, fast, and user-friendly alternative to 'find'. |
 
 ## Terminal Customization and Visualization
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| lolcat       | Adds rainbow colors to your terminal output, making it visually entertaining. |
-| cmatrix      | Simulate the "Matrix" digital rain.                        |
-| xcowsay      | Similar to cowsay but with a graphical cow speaking your message. |
-| cowsay       | Make an ASCII cow or other animals say anything you want.   |
-| boxes        | Draw shapes and boxes around text in your terminal.         |
+| Name    | Description                                                                   |
+| ------- | ----------------------------------------------------------------------------- |
+| lolcat  | Adds rainbow colors to your terminal output, making it visually entertaining. |
+| cmatrix | Simulate the "Matrix" digital rain.                                           |
+| xcowsay | Similar to cowsay but with a graphical cow speaking your message.             |
+| cowsay  | Make an ASCII cow or other animals say anything you want.                     |
+| boxes   | Draw shapes and boxes around text in your terminal.                           |
 
 ## Web Browsing and Downloading
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| curl         | Transfer data from or to a server.                          |
-| wget         | Download files from the web.                               |
-| links        | A text-based web browser.                                  |
-| w3m          | A terminal-based web browser with image support.           |
-| lynx         | A highly configurable text-based web browser.              |
+| Name  | Description                                      |
+| ----- | ------------------------------------------------ |
+| curl  | Transfer data from or to a server.               |
+| wget  | Download files from the web.                     |
+| links | A text-based web browser.                        |
+| w3m   | A terminal-based web browser with image support. |
+| lynx  | A highly configurable text-based web browser.    |
 
 ## Audio and Multimedia
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| cmus         | A powerful music player with a simple and efficient interface. |
-| mpv          | A multimedia player based on MPlayer and mplayer2.         |
-| nvlc         | A terminal-based media player based on libVLC.              |
-| youtube-dl   | Download videos from YouTube and other sites.              |
-| mocp         | Music on Console (MoC) - A simple and easy-to-use music player. |
+| Name       | Description                                                     |
+| ---------- | --------------------------------------------------------------- |
+| cmus       | A powerful music player with a simple and efficient interface.  |
+| mpv        | A multimedia player based on MPlayer and mplayer2.              |
+| nvlc       | A terminal-based media player based on libVLC.                  |
+| youtube-dl | Download videos from YouTube and other sites.                   |
+| mocp       | Music on Console (MoC) - A simple and easy-to-use music player. |
 
 ## Calendar and Reminders
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
+| Name         | Description                                                                                |
+| ------------ | ------------------------------------------------------------------------------------------ |
 | remind       | A sophisticated calendar and alarm utility that can be used for reminders and to-do lists. |
-| khal         | A powerful and extensible command-line calendar program.    |
-| calcurse     | A text-based calendar and scheduling application.           |
-| todo.txt-cli | A simple and todo.txt-based task manager for the command line. |
-| hcalendar    | A simple command-line tool for viewing and managing hCalendar events. |
+| khal         | A powerful and extensible command-line calendar program.                                   |
+| calcurse     | A text-based calendar and scheduling application.                                          |
+| todo.txt-cli | A simple and todo.txt-based task manager for the command line.                             |
+| hcalendar    | A simple command-line tool for viewing and managing hCalendar events.                      |
 
 ## Version Control and Development
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| git          | Version control system for tracking changes in files.      |
-| svn          | A version control system designed to be a better CVS.      |
-| mercurial    | A distributed version control system.                      |
-| fossil       | A distributed software configuration management system.    |
-| bzr          | A distributed version control system.                      |
+| Name      | Description                                             |
+| --------- | ------------------------------------------------------- |
+| git       | Version control system for tracking changes in files.   |
+| svn       | A version control system designed to be a better CVS.   |
+| mercurial | A distributed version control system.                   |
+| fossil    | A distributed software configuration management system. |
+| bzr       | A distributed version control system.                   |
 
 ## Text-to-Speech and Speech Synthesis
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| espeak       | A text-to-speech synthesizer for the terminal.              |
-| festival     | A general multi-lingual speech synthesis system.            |
-| pico2wave    | Text-to-speech conversion using the Pico TTS engine.        |
-| speak        | A simple utility for text-to-speech conversion.             |
-| flite        | A small, fast, run-time synthesis                           |
+| Name      | Description                                          |
+| --------- | ---------------------------------------------------- |
+| espeak    | A text-to-speech synthesizer for the terminal.       |
+| festival  | A general multi-lingual speech synthesis system.     |
+| pico2wave | Text-to-speech conversion using the Pico TTS engine. |
+| speak     | A simple utility for text-to-speech conversion.      |
+| flite     | A small, fast, run-time synthesis                    |
 
 
 ## Games and Entertainment
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| 2048-cli     | A command-line version of the popular 2048 puzzle game.    |
-| bastet       | A Tetris clone that intentionally gives you the worst possible pieces to challenge your skills. |
-| battleship   | Play the classic game of Battleship in the terminal.       |
-| ninvaders    | A space invaders game for your terminal.                   |
-| nSnake       | A classic Snake game that you can play in the terminal.    |
-| nudoku       | A console-based Sudoku game.                               |
-| tty-solitaire| Play the classic Solitaire card game in your terminal.     |
-| tetris-bsd   | Another version of Tetris for terminal gaming.             |
-| slurm        | A network load monitor that displays a moving train animation based on network activity. |
+| Name          | Description                                                                                     |
+| ------------- | ----------------------------------------------------------------------------------------------- |
+| 2048-cli      | A command-line version of the popular 2048 puzzle game.                                         |
+| bastet        | A Tetris clone that intentionally gives you the worst possible pieces to challenge your skills. |
+| battleship    | Play the classic game of Battleship in the terminal.                                            |
+| ninvaders     | A space invaders game for your terminal.                                                        |
+| nSnake        | A classic Snake game that you can play in the terminal.                                         |
+| nudoku        | A console-based Sudoku game.                                                                    |
+| tty-solitaire | Play the classic Solitaire card game in your terminal.                                          |
+| tetris-bsd    | Another version of Tetris for terminal gaming.                                                  |
+| slurm         | A network load monitor that displays a moving train animation based on network activity.        |
 
 ## Text Art and Animation
 
-| Name         | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| aafire       | Displays a fire animation using ASCII art.                  |
-| asciiart     | A tool to convert images into ASCII art.                    |
-| asciiquarium | Turns your terminal into a colorful, animated aquarium with ASCII fish and bubbles. |
-| bb           | A simple ASCII art demo that displays animated ASCII art.   |
-| cmatrix      | Simulate the "Matrix" digital rain.                        |
-| cacademo     | Showcases various ASCII art animations and effects.         |
-| figlet       | Create large text banners.                                 |
+| Name         | Description                                                                                |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| aafire       | Displays a fire animation using ASCII art.                                                 |
+| asciiart     | A tool to convert images into ASCII art.                                                   |
+| asciiquarium | Turns your terminal into a colorful, animated aquarium with ASCII fish and bubbles.        |
+| bb           | A simple ASCII art demo that displays animated ASCII art.                                  |
+| cmatrix      | Simulate the "Matrix" digital rain.                                                        |
+| cacademo     | Showcases various ASCII art animations and effects.                                        |
+| figlet       | Create large text banners.                                                                 |
 | figlet-fonts | An extensive collection of fonts for the "figlet" utility, allowing for creative text art. |
-| nyancat      | Displays a colorful, animated Nyan Cat as it flies across your terminal. |
-| oneko        | Displays a cat that follows your mouse cursor around the terminal. |
-| toilet       | Create large text banners with various fonts and styles.   |
-| xeyes        | Pairs of eyes that follow your mouse cursor on the screen. |
-| xcowsay      | Similar to cowsay but with a graphical cow speaking your message. |
+| nyancat      | Displays a colorful, animated Nyan Cat as it flies across your terminal.                   |
+| oneko        | Displays a cat that follows your mouse cursor around the terminal.                         |
+| toilet       | Create large text banners with various fonts and styles.                                   |
+| xeyes        | Pairs of eyes that follow your mouse cursor on the screen.                                 |
+| xcowsay      | Similar to cowsay but with a graphical cow speaking your message.                          |
 
 
 ### Text Processing and Manipulation
 
-| Utility  | Description                                           |
-|----------|-------------------------------------------------------|
-| grep     | Search and match text using regular expressions.       |
-| sed      | Text processing tool for substitution, deletion, etc. |
-| cut      | Extract specific fields or columns from text.        |
-| sort     | Sort lines of text files or input streams.           |
-| tr       | Translate, delete, or squeeze characters in text.    |
-| jq       | JSON processor for querying and manipulating JSON.   |
+| Utility | Description                                           |
+| ------- | ----------------------------------------------------- |
+| grep    | Search and match text using regular expressions.      |
+| sed     | Text processing tool for substitution, deletion, etc. |
+| cut     | Extract specific fields or columns from text.         |
+| sort    | Sort lines of text files or input streams.            |
+| tr      | Translate, delete, or squeeze characters in text.     |
+| jq      | JSON processor for querying and manipulating JSON.    |
 
 ### Data Transfer and Networking
 
-| Utility | Description                                           |
-|---------|-------------------------------------------------------|
+| Utility | Description                                            |
+| ------- | ------------------------------------------------------ |
 | curl    | Transfer data with URLs, supporting various protocols. |
-| nc      | A simple utility for reading/writing network data.    |
+| nc      | A simple utility for reading/writing network data.     |
 | wget    | Retrieve files from the web via HTTP, HTTPS, and FTP.  |
 
 ### Terminal Multiplexing and Monitoring
 
-| Utility | Description                                           |
-|---------|-------------------------------------------------------|
-| tmux    | Terminal multiplexer for managing multiple sessions. |
+| Utility | Description                                                      |
+| ------- | ---------------------------------------------------------------- |
+| tmux    | Terminal multiplexer for managing multiple sessions.             |
 | screen  | Full-screen window manager that multiplexes a physical terminal. |
-| htop    | Interactive process viewer for monitoring system resources. |
+| htop    | Interactive process viewer for monitoring system resources.      |
 
 ### File and Disk Management
 
-| Utility  | Description                                           |
-|----------|-------------------------------------------------------|
-| ncdu     | Disk usage analyzer with a text-based interface.      |
-| df       | Display disk space usage of file systems.             |
-| du       | Estimate file and directory space usage.              |
+| Utility  | Description                                                   |
+| -------- | ------------------------------------------------------------- |
+| ncdu     | Disk usage analyzer with a text-based interface.              |
+| df       | Display disk space usage of file systems.                     |
+| du       | Estimate file and directory space usage.                      |
 | find     | Search and locate files and directories within a file system. |
-| dupeguru | A GUI utility to find duplicate files in your system.  |
+| dupeguru | A GUI utility to find duplicate files in your system.         |
 
 ### Parallel Processing and Batch Jobs
 
-| Utility  | Description                                           |
-|----------|-------------------------------------------------------|
-| parallel | Execute multiple jobs or commands in parallel.        |
-| xargs    | Build and execute command lines from standard input.  |
+| Utility  | Description                                            |
+| -------- | ------------------------------------------------------ |
+| parallel | Execute multiple jobs or commands in parallel.         |
+| xargs    | Build and execute command lines from standard input.   |
 | jobber   | A task manager and job scheduler for batch processing. |
 
 
