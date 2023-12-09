@@ -1,3 +1,10 @@
+## To Learn
+
+1. `fzf`
+2. `awk`
+3. `sed`
+4. `grep` / ripgrep `rg`
+
 # Zsh Guide
 
 ## Startup Files
@@ -60,6 +67,11 @@ First Law of Zsh Administration: put as little as possible in the file /etc/zshe
   7. Brace Expansion
 * Highlighting / Colour coding output
 * File navigation - intiutive, easy
+* Syntax highlighting
+* Suggestions
+* Completions
+* History search
+* fuzzy finder
 
 
 ## Shell Commands
@@ -118,19 +130,19 @@ ln -s /usr/bin/ln ln
 
 1. [A User's Guide to the Z-Shell](https://zsh.sourceforge.io/Guide/zshguide.html)
 2. Zsh homepage - [zsh.org](https://www.zsh.org/)
+3. [Awesome Zsh Plugins](https://github.com/unixorn/awesome-zsh-plugins#plugins)
+4. [Zsh plugins topic](https://github.com/topics/zsh-plugins) on GitHub
 
-
-<!-- (-no space->)
 # Plugins
 * zsh-autosuggestions
 * zsh-completions
 * fast-syntax-highlighting
 
+
 ## CLI Commands and utilities
 
 * 2048-cli - A command-line version of the popular 2048 puzzle game.
 * aafire - Displays a fire animation using ASCII art.
-* aafire - Generates an ASCII art fire animation.
 * asciiart - A tool to convert images into ASCII art.
 * asciinema - Record and share terminal sessions as animated text.
 * asciiquarium - Turns your terminal into a colorful, animated aquarium with ASCII fish and bubbles.
@@ -141,22 +153,16 @@ ln -s /usr/bin/ln ln
 * bbcolors - A fun utility that displays color codes and color charts in your terminal.
 * bbpager - A "bouncing ball" pager that bounces a ball around your terminal as you scroll.
 * boxes - Draw shapes and boxes around text in your terminal.
-* boxes - Draws shapes and boxes around text in your terminal, adding a creative touch.
 * cacademo - Showcases various ASCII art animations and effects.
 * cat - Concatenate and display the content of files.
 * cd - Change the current directory.
 * cmatrix - Simulate the "Matrix" digital rain.
-* cmatrix - Simulates the "Matrix" digital rain effect for a visually engaging experience.
-* cmatrix - Simulates the "Matrix" digital rain, similar to the movie's iconic falling code.
 * codenames - A word game where you generate codenames for fun and interactive word association.
 * cowsay - Generate ASCII art with an animal saying a message.
-* cowsay - Make an ASCII cow or other animals say anything you want.
 * curl - Transfer data from or to a server.
 * dopewars - A text-based drug dealing game where you aim to make a profit.
 * espeak - A text-to-speech synthesizer for the terminal.
 * figlet - Create large text banners.
-* figlet - Creates large text banners in various styles, perfect for fun messages or ASCII art.
-* figlet - Generate large text banners in various fonts.
 * figlet-fonts - An extensive collection of fonts for the "figlet" utility, allowing for creative text art.
 * find - Search for files and directories.
 * fortune - Display random, humorous quotes.
@@ -167,7 +173,6 @@ ln -s /usr/bin/ln ln
 * hangman - A simple hangman game for word-guessing fun.
 * htop - Interactive system process viewer.
 * httrack - Download entire websites for offline viewing.
-* lolcat - Adds rainbow colors to your terminal output, making it visually entertaining.
 * lolcat - Colorize text in rainbow colors, making your terminal more vibrant.
 * ls - List files and directories in a folder.
 * mkdir - Create a new directory.
@@ -179,7 +184,6 @@ ln -s /usr/bin/ln ln
 * nSnake - A classic Snake game that you can play in the terminal.
 * nudoku - A console-based Sudoku game.
 * nyancat - Displays a colorful, animated Nyan Cat as it flies across your terminal.
-* nyancat - Displays an animated Nyan Cat, complete with the catchy Nyan Nyan Nyan song.
 * oneko - Displays a cat that follows your mouse cursor around the terminal.
 * pianobar - A command-line Pandora radio player that lets you listen to music from your terminal.
 * ponysay - Like cowsay, but with ponies and other characters delivering your messages.
@@ -190,8 +194,6 @@ ln -s /usr/bin/ln ln
 * rm - Remove files or directories.
 * rsync - Synchronize files and directories between systems.
 * sed - Stream editor for text manipulation.
-* sl - A mistyped "ls" command that displays a fun train animation as punishment for your typo.
-* sl - Mistyped "ls" command, a fun train animation.
 * sl - Shows a whimsical steam locomotive when you mistype "ls."
 * slurm - A network load monitor that displays a moving train animation based on network activity.
 * speedtest-cli - Check your internet speed from the terminal.
@@ -216,160 +218,132 @@ ln -s /usr/bin/ln ln
 
 
 
+
 # Terminal Commands
 
-`alias` - Create command shortcuts.
-`alias` - Create command shortcuts.
-`apropos` - Search the manual page names and descriptions.
-`apropos` - Search the manual page names and descriptions.
-`autoload` - Load Zsh functions from files.
-`awk` - Text processing tool for data extraction.
-`banner` - Display large text banners.
-`basename` - Strip directory and suffix from filenames.
-`bash` - GNU Bourne-Again SHell.
-`bc` - Arbitrary precision calculator language.
-`bc` - Arbitrary precision calculator.
-`bcftools` - Manipulate VCF/BCF files.
-`bindkey` - Configure key bindings.
-`cal` - Display a calendar.
-`cat` - Concatenate and display file content.
-`cc` - C compiler.
-`cd` - Change the current directory.
-`cd` - Change the current directory.
-`chmod` - Change file permissions.
-`chown` - Change file ownership.
-`chsh` - Change the user's login shell.
-`chsh` - Change the user's login shell.
-`clear` - Clear the terminal screen.
-`clear` - Clear the terminal screen.
-`clear` - Clear the terminal screen.
-`cmp` - Compare two files byte by byte.
-`colors` - Configure terminal colors.
-`comm` - Compare two sorted files line by line.
-`command_not_found_handler` - Customize command not found behavior.
-`compinit` - Initialize Zsh completion system.
-`complete` - Define custom completions.
-`cowsay` - Generate ASCII art with an animal saying a message.
-`cp` - Copy files and directories.
-`curl` - Transfer data from or to a server.
-`curl` - Transfer data with URLs.
-`cut` - Remove sections from each line of files.
-`date` - Display or set the system date and time.
-`date` - Display or set the system date and time.
-`dd` - Convert and copy a file.
-`df` - Display disk space usage.
-`df` - Display disk space usage.
-`diff` - Compare files line by line.
-`diff` - Compare files line by line.
-`dirs` - Manage directory stack.
-`du` - Estimate file and directory space usage.
-`du` - Estimate file and directory space usage.
-`echo` - Display text on the terminal.
-`echo` - Display text on the terminal.
-`echo` - Display text on the terminal.
-`egrep` - Search text files using extended regular expressions.
-`env` - Display environment variables.
-`env` - Display, set, or remove environment variables.
-`exit` - Exit the shell or terminal.
-`export` - Set environment variables.
-`expr` - Evaluate expressions.
-`factor` - Print prime factors.
-`fc` - Edit and re-execute commands from history.
-`file` - Determine file type.
-`find` - Search for files and directories.
-`finger` - User information lookup program.
-`fmt` - Reformat paragraph text.
-`fold` - Wrap text to fit a specified width.
-`free` - Display system memory usage.
-`fsck` - File system consistency check and interactive repair.
-`ftp` - File Transfer Protocol.
-`functions` - Define custom Zsh functions.
-`git` - Set up Git aliases and configuration.
-`grep` - Search for text within files.
-`head` - Display the beginning of a file.
-`history` - Customize command history settings.
-`hostname` - Display or set the system's hostname.
-`if` - Define conditional statements.
-`kill` - Terminate processes.
-`kill` - Terminate processes.
-`less` - View text files with pagination.
-`less` - View text files with pagination.
-`ln` - Create links between files.
-`ln` - Create links between files.
-`local` - Define local variables.
-`locate` - Find files by name.
-`login` - Begin session on the system.
-`lp` - Print files.
-`ls` - Configure `ls` command behavior.
-`ls` - List files and directories.
-`mail` - Process mail messages.
-`man` - Display manual pages.
-`mkdir` - Create directories with specific permissions.
-`mkdir` - Create directories.
-`mktemp` - Create temporary files and directories.
-`mv` - Alias for moving files and directories.
-`mv` - Move or rename files and directories.
-`mv` - Move or rename files and directories.
-`nice` - Modify the priority of a command.
-`nohup` - Run a command immune to hangups.
-`open` - Open files and directories with default applications.
-`passwd` - Change user password.
-`passwd` - Change user password.
-`paste` - Merge lines of files.
-`path` - Modify the `PATH` environment variable.
-`plugins` - Load and configure Zsh plugins.
-`printenv` - Display environment variables.
-`printf` - Format and print data.
-`prompt` - Customize the Zsh prompt.
-`ps` - Display information about running processes.
-`ps` - Report a snapshot of the current processes.
-`pushd` - Navigate the directory stack.
-`pwd` - Customize the display of the current working directory.
-`pwd` - Print the current working directory.
-`rm` - Remove files and directories.
-`rmdir` - Alias for removing empty directories.
-`rmdir` - Remove empty directories.
-`rsync` - Remote file copy and synchronization.
-`sed` - Stream editor for text manipulation.
-`seq` - Print sequences of numbers.
-`setopt` - Configure Zsh options.
-`sha1sum` - Compute and check SHA-1 message digest.
-`sha256sum` - Compute and check SHA-256 message digest.
-`sleep` - Delay for a specified amount of time.
-`sort` - Sort lines of text files.
-`source` - Execute a script or load configuration files.
-`sync` - Synchronize data on disk with memory.
-`tac` - Concatenate and print files in reverse.
-`tail` - Display the end of a file.
-`tmux` - Set up and configure Tmux.
-`touch` - Create empty files or update file timestamps.
-`touch` - Create empty files with specified attributes.
-`tr` - Translate or delete characters.
-`ulimit` - Set process resource limits.
-`unalias` - Remove command aliases.
-`uname` - Display system information.
-`unset` - Remove environment variables.
-`vared` - Edit variables interactively.
-`wait` - Wait for background jobs to complete.
-`wc` - Word, line, character, and byte count.
-`whence` - Find the location of a command.
-`which` - Display the full path of an executable.
-`which` - Display the path of an executable.
-`who` - Display information about logged-in users.
-`xargs` - Build and execute command lines from input.
-`yes` - Repeatedly output a line with a specified string.
-`zargs` - Process input with custom functions.
-`zcat` - Decompress and display compressed files.
-`zcompile` - Compile Zsh scripts for faster execution.
-`zle-keymap-select` - Define keymap-specific behavior.
-`zle-line-init` - Customize the ZLE initialization.
-`zle` - Customize Zsh line editor (ZLE) behavior.
-`zmv` - Perform batch file renaming.
-`zplug` - Configure and load Zsh plugins.
-`zstyle` - Customize completion and formatting styles.
-`zstyle` - Define styles for Zsh completion system.
+- `alias` - Create command shortcuts.
+- `apropos` - Search the manual page names and descriptions.
+- `autoload` - Load Zsh functions from files.
+- `awk` - Text processing tool for data extraction.
+- `banner` - Display large text banners.
+- `basename` - Strip directory and suffix from filenames.
+- `bash` - GNU Bourne-Again SHell.
+- `bc` - Arbitrary precision calculator language.
+- `bcftools` - Manipulate VCF/BCF files.
+- `bindkey` - Configure key bindings.
+- `cal` - Display a calendar.
+- `cat` - Concatenate and display file content.
+- `cc` - C compiler.
+- `cd` - Change the current directory.
+- `chmod` - Change file permissions.
+- `chown` - Change file ownership.
+- `chsh` - Change the user's login shell.
+- `clear` - Clear the terminal screen.
+- `cmp` - Compare two files byte by byte.
+- `colors` - Configure terminal colors.
+- `comm` - Compare two sorted files line by line.
+- `command_not_found_handler` - Customize command not found behavior.
+- `compinit` - Initialize Zsh completion system.
+- `complete` - Define custom completions.
+- `cp` - Copy files and directories.
+- `curl` - Transfer data with URLs.
+- `cut` - Remove sections from each line of files.
+- `date` - Display or set the system date and time.
+- `dd` - Convert and copy a file.
+- `df` - Display disk space usage.
+- `diff` - Compare files line by line.
+- `dirs` - Manage directory stack.
+- `du` - Estimate file and directory space usage.
+- `echo` - Display text on the terminal.
+- `egrep` - Search text files using extended regular expressions.
+- `env` - Display, set, or remove environment variables.
+- `exit` - Exit the shell or terminal.
+- `export` - Set environment variables.
+- `expr` - Evaluate expressions.
+- `factor` - Print prime factors.
+- `fc` - Edit and re-execute commands from history.
+- `file` - Determine file type.
+- `find` - Search for files and directories.
+- `finger` - User information lookup program.
+- `fmt` - Reformat paragraph text.
+- `fold` - Wrap text to fit a specified width.
+- `free` - Display system memory usage.
+- `fsck` - File system consistency check and interactive repair.
+- `ftp` - File Transfer Protocol.
+- `functions` - Define custom Zsh functions.
+- `grep` - Search for text within files.
+- `head` - Display the beginning of a file.
+- `history` - Customize command history settings.
+- `hostname` - Display or set the system's hostname.
+- `if` - Define conditional statements.
+- `kill` - Terminate processes.
+- `less` - View text files with pagination.
+- `ln` - Create links between files.
+- `local` - Define local variables.
+- `locate` - Find files by name.
+- `login` - Begin session on the system.
+- `lp` - Print files.
+- `ls` - List files and directories.
+- `mail` - Process mail messages.
+- `man` - Display manual pages.
+- `mkdir` - Create directories.
+- `mktemp` - Create temporary files and directories.
+- `mv` - Alias for moving files and directories.
+- `nice` - Modify the priority of a command.
+- `nohup` - Run a command immune to hangups.
+- `open` - Open files and directories with default applications.
+- `passwd` - Change user password.
+- `paste` - Merge lines of files.
+- `path` - Modify the `PATH` environment variable.
+- `plugins` - Load and configure Zsh plugins.
+- `printenv` - Display environment variables.
+- `printf` - Format and print data.
+- `prompt` - Customize the Zsh prompt.
+- `ps` - Display information about running processes.
+- `pushd` - Navigate the directory stack.
+- `pwd` - Print the current working directory.
+- `rm` - Remove files and directories.
+- `rmdir` - Remove empty directories.
+- `rsync` - Remote file copy and synchronization.
+- `sed` - Stream editor for text manipulation.
+- `seq` - Print sequences of numbers.
+- `setopt` - Configure Zsh options.
+- `sha1sum` - Compute and check SHA-1 message digest.
+- `sha256sum` - Compute and check SHA-256 message digest.
+- `sleep` - Delay for a specified amount of time.
+- `sort` - Sort lines of text files.
+- `source` - Execute a script or load configuration files.
+- `sync` - Synchronize data on disk with memory.
+- `tac` - Concatenate and print files in reverse.
+- `tail` - Display the end of a file.
+- `tmux` - Set up and configure Tmux.
+- `touch` - Create empty files or update file timestamps.
+- `tr` - Translate or delete characters.
+- `ulimit` - Set process resource limits.
+- `unalias` - Remove command aliases.
+- `uname` - Display system information.
+- `unset` - Remove environment variables.
+- `vared` - Edit variables interactively.
+- `wait` - Wait for background jobs to complete.
+- `wc` - Word, line, character, and byte count.
+- `whence` - Find the location of a command.
+- `which` - Display the full path of an executable.
+- `who` - Display information about logged-in users.
+- `xargs` - Build and execute command lines from input.
+- `yes` - Repeatedly output a line with a specified string.
+- `zargs` - Process input with custom functions.
+- `zcat` - Decompress and display compressed files.
+- `zcompile` - Compile Zsh scripts for faster execution.
+- `zle-keymap-select` - Define keymap-specific behavior.
+- `zle-line-init` - Customize the ZLE initialization.
+- `zle` - Customize Zsh line editor (ZLE) behavior.
+- `zmv` - Perform batch file renaming.
+- `zplug` - Configure and load Zsh plugins.
+- `zstyle` - Customize completion and formatting styles.
+- `zstyle` - Define styles for Zsh completion system.
 
 
+<!-- (-no space->)
 
 ## File Management
 
