@@ -6,6 +6,9 @@ For easy debugging- In `style.css`
     border: 1px solid red;
 }
 ```
+
+<!--
+
 ## Symlink
 The `ln` command is a Unix command for creating links between files or directories. A link is a reference to another file or directory. There are two types of links: hard links and soft links.
 
