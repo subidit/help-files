@@ -1,3 +1,10 @@
+## Formulae to install
+
+- fzf
+- bat
+- eza
+- nvim
+
 ## Add brew to PATH
 
 ```sh
@@ -5,3 +12,5 @@
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
+fzf key binding `CTRL-R` for zsh.
