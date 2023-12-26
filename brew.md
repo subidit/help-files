@@ -3,7 +3,16 @@
 - fzf
 - bat
 - eza
-- nvim
+- neovim
+- lsd
+
+## Casks
+
+- TeXstudio
+
+### Generate BREWFILE
+
+`brew bundle dump`
 
 ## Add brew to PATH
 
