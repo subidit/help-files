@@ -2,8 +2,29 @@
 
 - [Git](git.md)
 - [Homebrew](brew.md)
-- [Neovim](vim.md)
+- [vim](vim.md)
+- [Neovim](NeoVim.md)
 - [Zsh](zsh.md)
+- [WezTerm](WezTerm.md)
+- [Helix](helix.md)
+
+## CLI Tools
+- fzf
+- zoxide
+- awk
+- sed
+- grep / ripgrep (rg)
+- lazygit
+- helix (hx)
+
+## Awesome Lists
+- [Awesome Shell](https://github.com/alebcay/awesome-shell)
+- [Awesome Zsh Plugins](https://github.com/unixorn/awesome-zsh-plugins)
+- [Awesome CLI Apps](https://github.com/agarrharr/awesome-cli-apps)
+- [Terminals are sexy](https://github.com/k4m4/terminals-are-sexy)
+- [Awesome devenv](https://github.com/jondot/awesome-devenv)
+- [Awesome git addons](https://github.com/stevemao/awesome-git-addons)
+- [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 
 ## Tips
 
