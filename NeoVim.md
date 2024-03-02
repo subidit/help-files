@@ -397,3 +397,8 @@ Also install language specific [Debug Adapter](https://github.com/mfussenegger/n
 17. `<leader>gf` - formatting with `vim.lsp.buf.format`
 18. `<Leader>dt` - debugging toggle breakpoint
 19. `<Leader>dc` - debugging continue
+
+## Other plugins
+1. [Neovide](https://neovide.dev/configuration.html#cursor-settings) Cursor animation
+2. [Oil](https://github.com/stevearc/oil.nvim) Neovim file explorer: edit your filesystem like a buffer
+3. [Harpoon](https://github.com/ThePrimeagen/harpoon)
