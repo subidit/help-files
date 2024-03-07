@@ -1,12 +1,12 @@
 ## Contents
 
 - [Git](git.md)
-- [Homebrew](brew.md)
-- [vim](vim.md)
-- [Neovim](NeoVim.md)
-- [Zsh](zsh.md)
-- [WezTerm](WezTerm.md)
 - [Helix](helix.md)
+- [Homebrew](brew.md)
+- [Neovim](NeoVim.md)
+- [vim](vim.md)
+- [WezTerm](WezTerm.md)
+- [Zsh](zsh.md)
 
 ## CLI Tools
 - fzf
